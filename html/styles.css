@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Pacifico&family=Roboto:wght@700&family=Caveat:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #2c2c2c;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
+  height: auto;
+  gap: 10px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-family: 'Cursive', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.red {
+  background-color: #FF5959;
+  width: 200px;
+  height: 300px;
+  border-top-left-radius: 10px; 
+}
+
+.vertical-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+}
+
+.light-pink {
+  background-color: #FFD1D1;
+  width: 235px;
+  height: 150px;
+  border-bottom-right-radius: 10px; 
+}
+
+.light-pink2 {
+  background-color: #FFD1D1;
+  width: 240px;
+  height: 145px; 
+}
+
+.purple {
+  background-color: #A6A6FA;
+  width: 200px;
+  height: 300px;
+  border-top-right-radius: 10px;
+}
+
+.black {
+  background-color: #333;
+  width: 240px;
+  height: 145px; 
+}
+
+.horizontal-stack {
+  display: flex;
+  gap: 10px;
+}
+
+.green {
+  background-color: #9EFF9E;
+  width: 415px; 
+  height: 150px;
+  border-bottom-left-radius: 10px; 
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.light-pink2 p {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 26px; 
+}
+
+
+.black p {
+  font-family: 'Pacifico', cursive;
+  font-size: 26px;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.4), 0 0 30px rgba(255, 255, 255, 0.4); /* Cloudy effect */
+  padding: 10px;
+}
+
+
+.green p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+
+.light-pink p {
+  font-family: 'Caveat', cursive;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
